@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main {
+    width: 500px;
+    background-color: rgb(2, 6, 58);
+    box-shadow: 0.4rem 1rem 1rem -0.4rem rgba(1, 136, 247, 0.849);
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.inp {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: larger;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 17px;
+    background-color: rgb(2, 6, 58);
+    color: #fff;
+}
+
+input::placeholder {
+    color: gray;
+    font-size: large;
+    font-style: italic;
+}
+
+span {
+    font-size: 26px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+button {
+    width: 20%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: rgb(56, 16, 148);
+    font-size: medium;
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: gold;
+    cursor: pointer;
+}
+
+input:hover {
+    border: 1px solid rgb(94, 94, 94);
+}

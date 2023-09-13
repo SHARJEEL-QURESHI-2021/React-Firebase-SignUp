@@ -1,0 +1,22 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #223a5f;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #cecece;
+  }
+  

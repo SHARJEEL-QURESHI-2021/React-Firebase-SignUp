@@ -1,0 +1,96 @@
+/* Container styles */
+.user-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-top: 10px;
+  background-color: #001757;
+}
+
+/* Title styles */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+/* User list grid styles */
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* User card styles */
+.user-card {
+  width: 40%;
+  background-color: #1ea3d8;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+/* User data styles */
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+/* User count styles */
+#user-count {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: chartreuse;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#show {
+  display: flex;
+}
+
+button {
+  width: 35%;
+  color: #fff;
+  background-color: #1ea3d8;
+  border: 1px solid #fff;
+  height: 70px;
+}
+#del{
+  width: 100%;
+  background-color: red;
+  border: none;
+  height: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0073e6;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000c79;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0055a4;
+}
